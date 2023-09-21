@@ -1,25 +1,36 @@
 // header.scss
 
 .header {
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem 4rem 1rem 4rem;
   background-color: #008080;
 
-  &__menu {
-    padding-inline-start: 0;
-    margin: auto;
+  a {
+    text-decoration: none;
   }
 
-  &__list {
-    display: flex;
-    margin: auto;
-    list-style-type: none;
+  &__image {
+    width: 40%;
 
-    &-title {
-      font-size: 1.5rem;
+    &-logo {
+      width: 100%;
+    }
+  }
+
+  &__menu {
+    &-list {
+      list-style-type: none;
+      padding-inline-start: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    &-item {
+      color: wheat;
+      font-size: 2rem;
+      text-transform: uppercase;
     }
   }
 }
