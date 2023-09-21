@@ -5,13 +5,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem;
+  background-color: #008080;
 
   &__menu {
     padding-inline-start: 0;
+    margin: auto;
   }
 
   &__list {
-    color: #fff;
+    display: flex;
+    margin: auto;
     list-style-type: none;
 
     &-title {

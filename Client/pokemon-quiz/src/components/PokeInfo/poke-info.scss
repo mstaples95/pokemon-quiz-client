@@ -1,0 +1,18 @@
+.poke-info {
+  height: 50%;
+  .input-container {
+  }
+
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    gap: 1rem;
+    .info-btn {
+      color: aqua;
+      background-color: rgba(0, 0, 255, 0.5);
+      color: #fff;
+    }
+  }
+}
