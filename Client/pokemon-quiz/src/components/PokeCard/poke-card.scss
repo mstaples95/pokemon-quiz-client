@@ -1,0 +1,32 @@
+.pokemon__container {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+
+  .poke__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    width: 13rem;
+    border-radius: 5px;
+    gap: 1rem;
+
+    &-image {
+      padding-top: 0.125rem;
+      &-img {
+        width: 100%;
+      }
+    }
+
+    &-info {
+      &-list {
+        padding-inline-start: 0;
+      }
+
+      &-item {
+        list-style-type: none;
+      }
+    }
+  }
+}
