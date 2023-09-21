@@ -41,6 +41,7 @@ const Home = () => {
   return (
     <>
       <main className="main">
+        <PokeDisplay />
         {localPokemonData && <PokeInfo localdata={localPokemonData} />}
       </main>
       {pokemonData && <PokeCard data={pokemonData} />}

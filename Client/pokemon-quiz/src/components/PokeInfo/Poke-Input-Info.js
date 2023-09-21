@@ -2,6 +2,8 @@ import "./poke-info.scss";
 
 const PokeInfo = ({ localdata }) => {
   const { id, answers, question, typeAnswer } = localdata;
+  let filterData = [];
+  const NumberOfQuestions = 10;
 
   const validateAnswers = () => {
     let UserAnswers = [];
@@ -16,6 +18,10 @@ const PokeInfo = ({ localdata }) => {
     console.log(UserAnswers);
   };
 
+  for (let i = 0; i < NumberOfQuestions; i++) {
+    filterData.push(localdata[Math.floor(Math.random() * localdata.length)]);
+  }
+
   return (
     <div className="poke-info">
       <div className="input-container">
@@ -23,7 +29,7 @@ const PokeInfo = ({ localdata }) => {
         <input type="text" id="firstName" />
       </div>
       <form className="info-container">
-        {localdata.map(({ question, answers, typeAnswer }, index) => {
+        {filterData.map(({ question, answers, typeAnswer }, index) => {
           return (
             <div className="info-btn">
               <p> {question} </p>
