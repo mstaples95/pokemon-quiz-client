@@ -31,13 +31,13 @@
         {
           "name": "Houndoom",
           "type": "Fire",
-          "description": "",
+          "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
           "generation": 2
         },
         {
           "name": "Magcargo",
           "type": "Fire",
-          "description": "",
+          "description": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
           "generation": 2
         }
       ],
@@ -46,31 +46,26 @@
         {
           "name": "Furret",
           "type": "Normal",
-          "description": "",
+          "description": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
           "generation": 2
         },
         {
           "name": "Noctowl",
           "type": "Normal",
-          "description": "",
+          "description": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
           "generation": 2
         },
         {
-          "name": "Ledian",
+          "name": "Aipom",
           "type": "Normal",
-          "description": "",
+          "description": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
           "generation": 2
         },
+        
         {
-          "name": "Ariados",
+          "name": "Ursaring",
           "type": "Normal",
-          "description": "",
-          "generation": 2
-        },
-        {
-          "name": "Togetic",
-          "type": "Normal",
-          "description": "",
+          "description": "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
           "generation": 2
         }
       ],
@@ -79,19 +74,19 @@
         {
           "name": "Pichu",
           "type": "Electric",
-          "description": "",
+          "description": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
           "generation": 2
         },
         {
           "name": "Flaaffy",
           "type": "Electric",
-          "description": "",
+          "description": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
           "generation": 2
         },
         {
           "name": "Ampharos",
           "type": "Electric",
-          "description": "",
+          "description": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
           "generation": 2
         }
       ],
@@ -100,19 +95,19 @@
         {
           "name": "Bayleef",
           "type": "Grass",
-          "description": "",
+          "description": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
           "generation": 2
         },
         {
-          "name": "Meganium",
+          "name": "Bellossom",
           "type": "Grass",
-          "description": "",
+          "description": "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
           "generation": 2
         },
         {
           "name": "Sunkern",
           "type": "Grass",
-          "description": "",
+          "description": "It may drop out of the sky suddenly. If attacked by a Spearow, it will violently shake its leaves.",
           "generation": 2
         }
       ],
@@ -121,19 +116,19 @@
         {
           "name": "Piloswine",
           "type": "Ice",
-          "description": "",
+          "description": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
           "generation": 2
         },
         {
           "name": "Delibird",
           "type": "Ice",
-          "description": "",
+          "description": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
           "generation": 2
         },
         {
           "name": "Smoochum",
           "type": "Ice",
-          "description": "",
+          "description": "Its lips are the most sensitive parts on its body. It always uses its lips first to examine things.",
           "generation": 2
         }
       ],
@@ -142,19 +137,19 @@
         {
           "name": "Hitmontop",
           "type": "Fighting",
-          "description": "",
+          "description": "If you become enchanted by its smooth, elegant, dance-like kicks, you may get drilled hard.",
           "generation": 2
         },
         {
           "name": "Tyrogue",
           "type": "Fighting",
-          "description": "",
+          "description": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
           "generation": 2
         },
         {
           "name": "Hitmonlee",
           "type": "Fighting",
-          "description": "",
+          "description": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position",
           "generation": 2
         }
       ],
@@ -163,40 +158,40 @@
         {
           "name": "Ariados",
           "type": "Poison",
-          "description": "",
+          "description": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
           "generation": 2
         },
         {
           "name": "Qwilfish",
           "type": "Poison",
-          "description": "",
+          "description": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
           "generation": 2
         },
         {
-          "name": "Gligar",
+          "name": "Crobat",
           "type": "Poison",
-          "description": "",
+          "description": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
           "generation": 2
         }
       ],
 
       "ground_pokemon": [
         {
-          "name": "Swinub",
+          "name": "Gligar",
           "type": "Ground",
-          "description": "",
+          "description": "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
           "generation": 2
         },
         {
           "name": "Piloswine",
           "type": "Ground",
-          "description": "",
+          "description": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
           "generation": 2
         },
         {
           "name": "Donphan",
           "type": "Ground",
-          "description": "",
+          "description": "It has sharp, hard tusks and a rugged hide. Its Tackle is strong enough to knock down a house",
           "generation": 2
         }
       ],
@@ -205,19 +200,19 @@
         {
           "name": "Hoothoot",
           "type": "Flying",
-          "description": "",
+          "description": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
           "generation": 2
         },
         {
           "name": "Noctowl",
           "type": "Flying",
-          "description": "",
+          "description": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
           "generation": 2
         },
         {
           "name": "Togetic",
           "type": "Flying",
-          "description": "",
+          "description": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
           "generation": 2
         }
       ],
@@ -226,40 +221,40 @@
         {
           "name": "Espeon",
           "type": "Psychic",
-          "description": "",
+          "description": "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
           "generation": 2
         },
         {
           "name": "Unown",
           "type": "Psychic",
-          "description": "",
+          "description": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
           "generation": 2
         },
         {
           "name": "Wobbuffet",
           "type": "Psychic",
-          "description": "",
+          "description": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
           "generation": 2
         }
       ],
 
       "bug_pokemon": [
         {
-          "name": "Ledyba",
+          "name": "Pineco",
           "type": "Bug",
-          "description": "",
+          "description": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
           "generation": 2
         },
         {
           "name": "Ledian",
           "type": "Bug",
-          "description": "",
+          "description": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
           "generation": 2
         },
         {
-          "name": "Yanma",
+          "name": "Scizor",
           "type": "Bug",
-          "description": "",
+          "description": "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
           "generation": 2
         }
       ],
@@ -268,19 +263,19 @@
         {
           "name": "Sudowoodo",
           "type": "Rock",
-          "description": "",
+          "description": "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
           "generation": 2
         },
         {
           "name": "Corsola",
           "type": "Rock",
-          "description": "",
+          "description": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
           "generation": 2
         },
         {
           "name": "Shuckle",
           "type": "Rock",
-          "description": "",
+          "description": "The Berries it stores in its vase-like shell decompose and become a gooey liquid.",
           "generation": 2
         }
       ],
@@ -289,40 +284,17 @@
         {
           "name": "Misdreavous",
           "type": "Ghost",
-          "description": "",
-          "generation": 2
-        },
-        {
-          "name": "Unown",
-          "type": "Ghost",
-          "description": "",
-          "generation": 2
-        },
-        {
-          "name": "Wobbuffet",
-          "type": "Ghost",
-          "description": "",
+          "description": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
           "generation": 2
         }
+        
       ],
 
       "dragon_pokemon": [
         {
           "name": "Kingdra",
           "type": "Dragon",
-          "description": "",
-          "generation": 2
-        },
-        {
-          "name": "Horsea",
-          "type": "Dragon",
-          "description": "",
-          "generation": 2
-        },
-        {
-          "name": "Seadra",
-          "type": "Dragon",
-          "description": "",
+          "description": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
           "generation": 2
         }
       ],
@@ -331,19 +303,19 @@
         {
           "name": "Umbreon",
           "type": "Dark",
-          "description": "",
+          "description": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores",
           "generation": 2
         },
         {
           "name": "Murkrow",
           "type": "Dark",
-          "description": "",
+          "description": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
           "generation": 2
         },
         {
           "name": "Houndour",
           "type": "Dark",
-          "description": "",
+          "description": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
           "generation": 2
         }
       ],
@@ -352,19 +324,19 @@
         {
           "name": "Steelix",
           "type": "Steel",
-          "description": "",
+          "description": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
           "generation": 2
         },
         {
-          "name": "Scizor",
+          "name": "Forretress",
           "type": "Steel",
-          "description": "",
+          "description": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
           "generation": 2
         },
         {
           "name": "Skarmory",
           "type": "Steel",
-          "description": "",
+          "description": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
           "generation": 2
         }
       ]

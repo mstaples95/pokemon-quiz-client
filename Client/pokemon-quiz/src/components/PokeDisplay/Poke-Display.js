@@ -20,6 +20,7 @@ const PokeDisplay = ({ chosenType }) => {
   }
 
   const { name, type, description } = randomPokemon
+  const picName = name.toLowerCase
 
   return (
     <div className="display__container">
@@ -29,7 +30,7 @@ const PokeDisplay = ({ chosenType }) => {
         </div>
         <div className="pokemon__display-info">
           <ul className="pokemon__display-info-list">
-            <li className="pokemon__display-info-item">Name: {name}</li>
+            <li className="pokemon__display-info-item">Name: tolowercase{picName}</li>
             <li className="pokemon__display-info-item">Description: {description} </li>
             <li className="pokemon__display-info-item">Type: {type} </li>
           </ul>
