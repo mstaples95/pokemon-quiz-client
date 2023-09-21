@@ -1,0 +1,365 @@
+{
+    "water pokemon": [
+    {
+        "name": "Azumarill",
+        "type": "Water",
+        "generation": 2
+      },
+      
+      {
+        "name": "Feraligatr",
+        "type": "Water",
+        "generation": 2
+      },
+      {
+        "name": "Chinchou",
+        "type": "Water",
+        "generation": 2
+      },
+      {
+        "name": "Lanturn",
+        "type": "Water",
+        "generation": 2
+      },
+      {
+        "name": "Qwilfish",
+        "type": "Water",
+        "generation": 2
+      }
+    ],
+
+    "fire_pokemon": [
+        {
+          "name": "Typhlosion",
+          "type": "Fire",
+          "generation": 2
+        },
+        {
+          "name": "Houndoom",
+          "type": "Fire",
+          "generation": 2
+        },
+        {
+          "name": "Magcargo",
+          "type": "Fire",
+          "generation": 2
+        },
+        {
+          "name": "Ho-Oh",
+          "type": "Fire",
+          "generation": 2
+        },
+        {
+          "name": "Magby",
+          "type": "Fire",
+          "generation": 2
+        }
+      ],
+
+      "normal_pokemon": [
+        {
+          "name": "Furret",
+          "type": "Normal",
+          "generation": 2
+        },
+        {
+          "name": "Noctowl",
+          "type": "Normal",
+          "generation": 2
+        },
+        {
+          "name": "Ledian",
+          "type": "Normal",
+          "generation": 2
+        },
+        {
+          "name": "Ariados",
+          "type": "Normal",
+          "generation": 2
+        },
+        {
+          "name": "Togetic",
+          "type": "Normal",
+          "generation": 2
+        }
+      ],
+
+      "electric_pokemon": [
+        {
+          "name": "Pichu",
+          "type": "Electric",
+          "generation": 2
+        },
+        {
+          "name": "Mareep",
+          "type": "Electric",
+          "generation": 2
+        },
+        {
+          "name": "Flaaffy",
+          "type": "Electric",
+          "generation": 2
+        },
+        {
+          "name": "Ampharos",
+          "type": "Electric",
+          "generation": 2
+        },
+        {
+          "name": "Elekid",
+          "type": "Electric",
+          "generation": 2
+        }
+      ],
+
+      "grass_pokemon": [
+        {
+          "name": "Chikorita",
+          "type": "Grass",
+          "generation": 2
+        },
+        {
+          "name": "Bayleef",
+          "type": "Grass",
+          "generation": 2
+        },
+        {
+          "name": "Meganium",
+          "type": "Grass",
+          "generation": 2
+        },
+        {
+          "name": "Sunkern",
+          "type": "Grass",
+          "generation": 2
+        }
+      ],
+
+      "ice_pokemon": [
+        {
+          "name": "Swinub",
+          "type": "Ice",
+          "generation": 2
+        },
+        {
+          "name": "Piloswine",
+          "type": "Ice",
+          "generation": 2
+        },
+        {
+          "name": "Delibird",
+          "type": "Ice",
+          "generation": 2
+        },
+        {
+          "name": "Smoochum",
+          "type": "Ice",
+          "generation": 2
+        }
+      ],
+
+      "fighting_pokemon": [
+        {
+          "name": "Hitmontop",
+          "type": "Fighting",
+          "generation": 2
+        },
+        {
+          "name": "Tyrogue",
+          "type": "Fighting",
+          "generation": 2
+        },
+        {
+          "name": "Hitmonlee",
+          "type": "Fighting",
+          "generation": 2
+        },
+        {
+          "name": "Hitmonchan",
+          "type": "Fighting",
+          "generation": 2
+        }
+      ],
+
+      "poison_pokemon": [
+        {
+          "name": "Ariados",
+          "type": "Poison",
+          "generation": 2
+        },
+        {
+          "name": "Qwilfish",
+          "type": "Poison",
+          "generation": 2
+        },
+        {
+          "name": "Gligar",
+          "type": "Poison",
+          "generation": 2
+        }
+      ],
+
+      "ground_pokemon": [
+        {
+          "name": "Swinub",
+          "type": "Ground",
+          "generation": 2
+        },
+        {
+          "name": "Piloswine",
+          "type": "Ground",
+          "generation": 2
+        },
+        {
+          "name": "Donphan",
+          "type": "Ground",
+          "generation": 2
+        }
+      ],
+
+      "flying_pokemon": [
+        {
+          "name": "Hoothoot",
+          "type": "Flying",
+          "generation": 2
+        },
+        {
+          "name": "Noctowl",
+          "type": "Flying",
+          "generation": 2
+        },
+        {
+          "name": "Togetic",
+          "type": "Flying",
+          "generation": 2
+        }
+      ],
+
+      "psychic_pokemon": [
+        {
+          "name": "Espeon",
+          "type": "Psychic",
+          "generation": 2
+        },
+        {
+          "name": "Unown",
+          "type": "Psychic",
+          "generation": 2
+        },
+        {
+          "name": "Wobbuffet",
+          "type": "Psychic",
+          "generation": 2
+        }
+      ],
+
+      "bug_pokemon": [
+        {
+          "name": "Ledyba",
+          "type": "Bug",
+          "generation": 2
+        },
+        {
+          "name": "Ledian",
+          "type": "Bug",
+          "generation": 2
+        },
+        {
+          "name": "Yanma",
+          "type": "Bug",
+          "generation": 2
+        }
+      ],
+
+      "rock_pokemon": [
+        {
+          "name": "Sudowoodo",
+          "type": "Rock",
+          "generation": 2
+        },
+        {
+          "name": "Corsola",
+          "type": "Rock",
+          "generation": 2
+        },
+        {
+          "name": "Shuckle",
+          "type": "Rock",
+          "generation": 2
+        }
+      ],
+
+      "ghost_pokemon": [
+        {
+          "name": "Misdreavous",
+          "type": "Ghost",
+          "generation": 2
+        },
+        {
+          "name": "Unown",
+          "type": "Ghost",
+          "generation": 2
+        },
+        {
+          "name": "Wobbuffet",
+          "type": "Ghost",
+          "generation": 2
+        }
+      ],
+
+      "dragon_pokemon": [
+        {
+          "name": "Kingdra",
+          "type": "Dragon",
+          "generation": 2
+        },
+        {
+          "name": "Horsea",
+          "type": "Dragon",
+          "generation": 2
+        },
+        {
+          "name": "Seadra",
+          "type": "Dragon",
+          "generation": 2
+        }
+      ],
+
+      "dark_pokemon": [
+        {
+          "name": "Umbreon",
+          "type": "Dark",
+          "generation": 2
+        },
+        {
+          "name": "Murkrow",
+          "type": "Dark",
+          "generation": 2
+        },
+        {
+          "name": "Houndour",
+          "type": "Dark",
+          "generation": 2
+        }
+      ],
+
+      "steel_pokemon": [
+        {
+          "name": "Steelix",
+          "type": "Steel",
+          "generation": 2
+        },
+        {
+          "name": "Scizor",
+          "type": "Steel",
+          "generation": 2
+        },
+        {
+          "name": "Skarmory",
+          "type": "Steel",
+          "generation": 2
+        }
+      ]
+
+}
+
