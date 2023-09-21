@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { fetchAllPokemon } from "../../apiUtils/apiUtils.mjs";
+import {
+  fetchAllPokemon,
+  fetchAllPokemonLocal,
+} from "../../apiUtils/apiUtils.mjs";
 import PokeCard from "../../components/PokeCard/Poke-Card";
 import PokeDisplay from "../../components/PokeDisplay/Poke-Display";
 import "./home.scss";
@@ -7,6 +10,7 @@ import PokeInfo from "../../components/PokeInfo/Poke-Input-Info";
 
 const Home = () => {
   const [pokemonData, setPokemonData] = useState(null);
+  const [localPokemonData, setLocalPokemonData] = useState(null);
 
   useEffect(() => {
     const getAllPokemon = async () => {
@@ -21,11 +25,23 @@ const Home = () => {
     getAllPokemon();
   }, []);
 
+  useEffect(() => {
+    const getAllPokemonLocal = async () => {
+      try {
+        const { data } = await fetchAllPokemonLocal();
+        setLocalPokemonData(data);
+        console.log(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getAllPokemonLocal();
+  }, []);
+
   return (
     <>
       <main className="main">
-        <PokeDisplay />
-        <PokeInfo />
+        {localPokemonData && <PokeInfo localdata={localPokemonData} />}
       </main>
       {pokemonData && <PokeCard data={pokemonData} />}
     </>
