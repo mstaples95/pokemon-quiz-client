@@ -1,3 +1,11 @@
-// main {
-//     background-image: url(./);
-// }
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(../../assets/image/pokemon-underwater-world-b9w7bfwurucp56iu.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 35rem;
+  align-items: center;
+}
