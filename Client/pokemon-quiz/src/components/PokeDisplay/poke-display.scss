@@ -1,0 +1,35 @@
+.display__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+
+  .pokemon__display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    width: 13rem;
+    border-radius: 5px;
+    gap: 1rem;
+
+    &-image {
+      padding-top: 0.125rem;
+      &-img {
+        width: 100%;
+      }
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      &-list {
+        padding-inline-start: 0;
+      }
+
+      &-item {
+        list-style-type: none;
+      }
+    }
+  }
+}
