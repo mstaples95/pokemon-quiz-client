@@ -1,7 +1,11 @@
 import "./poke-info.scss";
 
 const PokeInfo = () => {
-  return <div>Poke-Info</div>;
+  return (
+    <div>
+      <div></div>
+    </div>
+  );
 };
 
 export default PokeInfo;
