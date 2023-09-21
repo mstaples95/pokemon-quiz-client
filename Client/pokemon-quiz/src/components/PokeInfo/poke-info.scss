@@ -18,17 +18,20 @@
   .info-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
     gap: 1rem;
     text-align: center;
+    flex-direction: row;
 
     .info-btn {
       background-color: rgba(69, 83, 125, 0.5);
       color: wheat;
       border: 2px solid gray;
       border-radius: 5px;
-      height: 1.5rem;
+      height: 4.5vh;
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
 
       @include desktop {
         width: 75%;
