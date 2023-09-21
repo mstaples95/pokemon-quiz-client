@@ -4,6 +4,7 @@ import PokeCard from "../../components/PokeCard/Poke-Card";
 import PokeDisplay from "../../components/PokeDisplay/Poke-Display";
 import "./home.scss";
 import PokeInfo from "../../components/PokeInfo/Poke-Input-Info";
+import Jukebox from "../../components/Jukebox/Jukebox";
 
 const Home = () => {
   const [pokemonData, setPokemonData] = useState(null);
@@ -26,8 +27,10 @@ const Home = () => {
       <main className="main">
         <PokeDisplay />
         <PokeInfo />
+        
       </main>
       {pokemonData && <PokeCard data={pokemonData} />}
+      <Jukebox />
     </>
   );
 };
