@@ -35,6 +35,8 @@
 import React from "react";
 import "./poke-card.scss";
 
+
+
 const PokeCard = ({ data }) => {
   return (
     <div className="pokemon__container">
@@ -52,8 +54,6 @@ const PokeCard = ({ data }) => {
           <div className="poke__card-info">
             <ul className="poke__card-info-list">
               <li className="poke__card-info-item">Name: {pokeData.name} </li>
-              <li className="poke__card-info-item">Type: </li>
-              <li className="poke__card-info-item">Information: </li>
             </ul>
           </div>
         </div>
