@@ -1,0 +1,46 @@
+// header.scss
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: #008080;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__image {
+    width: 40%;
+
+    &-logo {
+      width: 100%;
+    }
+  }
+
+  &__menu {
+    &-list {
+      list-style-type: none;
+      padding-inline-start: 0;
+      display: flex;
+      gap: 1rem;
+    }
+
+    &-item {
+      color: wheat;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.music-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jukebox {
+  height: 10vh;
+}

@@ -1,0 +1,14 @@
+@use "../../styles/partial/media" as *;
+
+.main {
+  display: flex;
+  background-image: url(../../assets/image/pokemon-underwater-world-b9w7bfwurucp56iu.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 43.5rem;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1.5rem;
+}

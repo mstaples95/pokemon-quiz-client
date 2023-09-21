@@ -1,0 +1,59 @@
+@use "../../styles/partial/media" as *;
+
+.display__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: rgba(69, 83, 125, 0.5);
+  height: 50%;
+  width: 25%;
+
+  @include desktop {
+    width: 25%;
+    height: 75%;
+  }
+
+  .pokemon__display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    gap: 1rem;
+    color: wheat;
+    width: 100%;
+    justify-content: space-around;
+
+    &-image {
+      padding-top: 0.125rem;
+      width: 9.5rem;
+      height: 8.5rem;
+      border-radius: 15%;
+      background-color: rgba(69, 83, 125, 0.5);
+
+      &-img {
+        width: 9.5rem;
+        height: 8.5rem;
+        border-radius: 15%;
+        background-color: rgba(69, 83, 125, 0.5);
+
+        @include desktop {
+          width: 11.5rem;
+          height: 11.5rem;
+        }
+      }
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      &-list {
+        padding-inline-start: 0;
+      }
+
+      &-item {
+        list-style-type: none;
+      }
+    }
+  }
+}
