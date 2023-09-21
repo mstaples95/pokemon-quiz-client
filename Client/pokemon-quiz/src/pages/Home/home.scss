@@ -4,12 +4,9 @@
   display: flex;
   justify-content: space-around;
   background-image: url(../../assets/image/pokemon-underwater-world-b9w7bfwurucp56iu.webp);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 35rem;
   align-items: center;
-
-  @include desktop {
-  }
 }
