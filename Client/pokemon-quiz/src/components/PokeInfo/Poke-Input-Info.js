@@ -1,7 +1,6 @@
 import "./poke-info.scss";
 
 const PokeInfo = ({ localdata }) => {
-  const { id, answers, question, typeAnswer } = localdata;
   let filterData = [];
   const NumberOfQuestions = 10;
 
