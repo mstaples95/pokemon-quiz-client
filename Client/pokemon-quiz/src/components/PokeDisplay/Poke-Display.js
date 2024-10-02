@@ -30,7 +30,7 @@ const PokeDisplay = ({ chosenType }) => {
         </div>
         <div className="pokemon__display-info">
           <ul className="pokemon__display-info-list">
-            <li className="pokemon__display-info-item">Name: tolowercase{picName}</li>
+            <li className="pokemon__display-info-item">Name: {picName}</li>
             <li className="pokemon__display-info-item">Description: {description} </li>
             <li className="pokemon__display-info-item">Type: {type} </li>
           </ul>
